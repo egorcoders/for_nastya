@@ -10,8 +10,7 @@ OPTIONS = {
 }
 
 
-def create_list(n: int, m: int) -> list:
-    a = list()
+def create_list(n: int, m: int, a=list()) -> list:
     for i in range(n):
         b = list()
         for j in range(m):
